@@ -16,11 +16,18 @@ public class Corte {
     private String corte;
     private int dia;
 
+    public Corte() {
+    }
+
     public Corte(Long id, String nome, String corte, int dia) {
         this.id = id;
         this.nome = nome;
         this.corte = corte;
         this.dia = dia;
+    }
+
+    public Long getId() {
+        return id;
     }
 
     public String getNome() {
